@@ -19,6 +19,7 @@ vitest.config.zip
 
 # Environment variables
 .env
+.env.*
 .env.local
 .env.development
 .env.development.local
@@ -27,6 +28,12 @@ vitest.config.zip
 .env.test
 .env.test.local
 .env.*.local
+.envrc
+.env.backup
+.env.save
+# Keep .env.example files (template files should be committed)
+!.env.example
+!.env*.example
 
 # Editor directories and files
 .vscode/*
